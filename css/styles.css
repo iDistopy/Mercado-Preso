@@ -1,0 +1,250 @@
+body {
+    font-family: Poppins;
+    background-color: #141728 /* #131524 */!important;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #141728;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #141728;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #747ba3;
+    border-radius: 8px;
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #2f3a4b;
+}
+
+header {
+    background-color: hsl(233deg 33% 10% / 80%) !important;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-right: 20%;
+    width: 100%;
+}
+
+nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 6px;
+    padding-left: 30px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    line-height: 1;
+}
+
+nav a i {
+    margin-right: 5px;
+}
+
+nav a:hover,
+nav a.current {
+    color: #b39eda;
+}
+
+.topbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* .logo-info {
+    display: flex;
+    align-items: center;
+} */
+
+/* .logo-pic {
+    margin-right: 5px;
+} */
+
+.client-login {
+    background-color: #e4bb38;
+    color: #fff;
+    padding: 8px 30px;
+    text-decoration: none;
+    width: 8%;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: -175px;
+    margin-left: 91.5%;
+    font-size: 15px;
+}
+
+.client-login span {
+    padding-left: 8px;
+}
+
+.client-register {
+    background-color: #e4bb38;
+    color: #fff;
+    padding: 8px 30px;
+    text-decoration: none;
+    width: 8%;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: -65px;
+    margin-left: 91.5%;
+    font-size: 15px;
+}
+
+.client-register span {
+    padding-left: 15px;
+}
+
+.client-login i {
+    margin-right: 5px;
+}
+
+.client-register i {
+    margin-right: 5px;
+}
+
+.client-area span {
+    display: inline-block;
+}
+
+.client-area:hover {
+    transform: scale(1.05);
+}
+
+.searchForm {
+    padding-left: 38%;
+}
+
+.searchInput {
+    max-width: 400px;
+    width: 350px;
+    align-content: center;
+    padding-right: 5px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.card {
+    width: 250px; 
+    background: #aab7c9 !important;
+    border-radius: .65rem !important;
+    box-shadow: 0px 0px 14px -2px #949bf3;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border: 2px solid #fff;
+    border-radius: .65rem .65rem .0rem 0rem;
+    
+}
+
+.save {
+    transition: 0.2s ease-in-out;
+    border-radius: 10px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #534a7b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.save .svg {
+    transition: 0.2s ease-in-out;
+    width: 15px;
+    height: 15px;
+}
+
+.save:hover .svg {
+    fill: #ced8de;
+}
+
+.text {
+    padding: 7px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.text .h3 {
+    padding-top: 15px;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.text .p {
+    color: #7267f4;
+    font-size: 13px;
+    margin: 0px;
+    text-align: center;
+    padding: 5px;
+}
+
+.icon-box {
+    margin: 20px;
+    background-color: #7980c5;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.icon-box .span {
+    font-size: small;
+    font-weight: 500;
+    padding-top: 15px;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        margin-right: 5%;
+    }
+}

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Ícono MercadoLibre -->
+    <link href="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/favicon.svg" rel="icon" data-head-react="true"/>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link href="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/widgets/6.5.9/modeless-box.css" rel="stylesheet" type="text/css" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>Mercado Preso Chile - Envíos Caros en la Noche</title>
+</head>
+<body>
+    <header>
+        <form class="searchForm d-flex" style="padding-top: 15px">
+            <input
+                type="text"
+                class="searchInput nav-search-input"
+                id="cb1-edit"
+                name="busqueda"
+                placeholder="Buscar productos, marcas y más…"
+                maxlength="120"
+                autocapitalize="off"
+                autocorrect="off"
+                spellcheck="false"
+                autocomplete="off"
+                value=""
+                aria-activedescendant=""
+                aria-controls="cb1-list"
+                aria-autocomplete="list"
+                aria-expanded="false"
+                role="combobox"
+            />
+            <button class="searchButton btn btn-outline-success" type="submit">
+                Buscar
+            </button>
+        </form>
+        <div class="topbar-content">
+            <div class="logo-info">
+                <img
+                    class="logo-pic"
+                    src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/6.6.34/mercadolibre/logo_large_25years.png"
+                    alt="Web Avatar"
+                />
+            </div>
+            <nav>
+                <a href="#">
+                    <i class="fas fa-home" aria-hidden="true"></i>
+                    Inicio
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-chart-simple" aria-hidden="true"></i>
+                    Categorías
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-clipboard-user" aria-hidden="true"></i>
+                    Historial
+                </a>
+                <a href="#">
+                    <i class="fas fa-star" aria-hidden="true"></i>
+                    Supermercado
+                </a>
+                <a href="#">
+                    <i class="fas fa-exclamation-triangle" aria-hidden="true"></i>
+                    Vestuario
+                </a>
+                <a href="#">
+                    <i class="fas fa-cogs" aria-hidden="true"></i>
+                    Entretenimiento
+                </a>
+                <a href="#">
+                    <i class="fas fa-bell" aria-hidden="true"></i>
+                    Vender
+                </a>
+                <a href="/ayuda">
+                    <i class="fas fa-bell" aria-hidden="true"></i>
+                    Ayuda
+                </a>
+            </nav>
+        </div>
+        <a href="#" class="client-login">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <span>Iniciar Sesión</span>
+        </a>
+        <a href="#" class="client-register">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <span>Registrarse</span>
+        </a>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/carousel/image1.webp" class="d-block w-100" alt="Image 1" />
+            </div>
+            <div class="carousel-item">
+                <img src="/images/carousel/image2.webp" class="d-block w-100" alt="Image 2" />
+            </div>
+            <div class="carousel-item">
+                <img src="/images/carousel/" class="d-block w-100" alt="Image 3" />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="card-container">
+            <!-- Primer Item -->
+            <div class="card">
+                <div class="img" style="background-image: url(/images/products/prod1.webp);">
+                    <div class="save">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 683 683" height="683" width="683" class="svg">
+                            <g clip-path="url(#clip0_993_25)">
+                                <mask height="683" width="683" y="0" x="0" maskUnits="userSpaceOnUse" style="mask-type: luminance" id="mask0_993_25">
+                                    <path fill="white" d="M0 -0.00012207H682.667V682.667H0V-0.00012207Z"></path>
+                                </mask>
+                                <g mask="url(#mask0_993_25)">
+                                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40" stroke="#CED8DE" d="M148.535 19.9999C137.179 19.9999 126.256 24.5092 118.223 32.5532C110.188 40.5866 105.689 51.4799 105.689 62.8439V633.382C105.689 649.556 118.757 662.667 134.931 662.667H135.039C143.715 662.667 151.961 659.218 158.067 653.09C186.451 624.728 270.212 540.966 304.809 506.434C314.449 496.741 327.623 491.289 341.335 491.289C355.045 491.289 368.22 496.741 377.859 506.434C412.563 541.074 496.752 625.242 524.816 653.348C530.813 659.314 538.845 662.667 547.308 662.667C563.697 662.667 576.979 649.395 576.979 633.019V62.8439C576.979 51.4799 572.48 40.5866 564.447 32.5532C556.412 24.5092 545.489 19.9999 534.133 19.9999H148.535Z"></path>
+                                </g>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_993_25">
+                                    <rect fill="white" height="682.667" width="682.667"></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p class="h3">Teclado RedDragon Kurama</p>
+                    <p class="p">Increible teclado mecánico con la capacidad de hacerte jugar bien.</p>
+
+                    <div class="icon-box">
+                        <p class="span">Ver Más</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo Item -->
+            <div class="card">
+                <div class="img" style="background-image: url(/images/products/prod2.webp);">
+                    <div class="save">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 683 683" height="683" width="683" class="svg">
+                            <g clip-path="url(#clip0_993_25)">
+                                <mask height="683" width="683" y="0" x="0" maskUnits="userSpaceOnUse" style="mask-type: luminance" id="mask0_993_25">
+                                    <path fill="white" d="M0 -0.00012207H682.667V682.667H0V-0.00012207Z"></path>
+                                </mask>
+                                <g mask="url(#mask0_993_25)">
+                                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40" stroke="#CED8DE" d="M148.535 19.9999C137.179 19.9999 126.256 24.5092 118.223 32.5532C110.188 40.5866 105.689 51.4799 105.689 62.8439V633.382C105.689 649.556 118.757 662.667 134.931 662.667H135.039C143.715 662.667 151.961 659.218 158.067 653.09C186.451 624.728 270.212 540.966 304.809 506.434C314.449 496.741 327.623 491.289 341.335 491.289C355.045 491.289 368.22 496.741 377.859 506.434C412.563 541.074 496.752 625.242 524.816 653.348C530.813 659.314 538.845 662.667 547.308 662.667C563.697 662.667 576.979 649.395 576.979 633.019V62.8439C576.979 51.4799 572.48 40.5866 564.447 32.5532C556.412 24.5092 545.489 19.9999 534.133 19.9999H148.535Z"></path>
+                                </g>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_993_25">
+                                    <rect fill="white" height="682.667" width="682.667"></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p class="h3">Secador de Pelo Dyson</p>
+                    <p class="p">Seca el pelo y alisa, cuesta muy caro...</p>
+
+                    <div class="icon-box">
+                        <p class="span">Ver Más</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tercer Item -->
+            <div class="card">
+                <div class="img" style="background-image: url(/images/products/prod3.webp);">
+                    <div class="save">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 683 683" height="683" width="683" class="svg">
+                            <g clip-path="url(#clip0_993_25)">
+                                <mask height="683" width="683" y="0" x="0" maskUnits="userSpaceOnUse" style="mask-type: luminance" id="mask0_993_25">
+                                    <path fill="white" d="M0 -0.00012207H682.667V682.667H0V-0.00012207Z"></path>
+                                </mask>
+                                <g mask="url(#mask0_993_25)">
+                                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40" stroke="#CED8DE" d="M148.535 19.9999C137.179 19.9999 126.256 24.5092 118.223 32.5532C110.188 40.5866 105.689 51.4799 105.689 62.8439V633.382C105.689 649.556 118.757 662.667 134.931 662.667H135.039C143.715 662.667 151.961 659.218 158.067 653.09C186.451 624.728 270.212 540.966 304.809 506.434C314.449 496.741 327.623 491.289 341.335 491.289C355.045 491.289 368.22 496.741 377.859 506.434C412.563 541.074 496.752 625.242 524.816 653.348C530.813 659.314 538.845 662.667 547.308 662.667C563.697 662.667 576.979 649.395 576.979 633.019V62.8439C576.979 51.4799 572.48 40.5866 564.447 32.5532C556.412 24.5092 545.489 19.9999 534.133 19.9999H148.535Z"></path>
+                                </g>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_993_25">
+                                    <rect fill="white" height="682.667" width="682.667"></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p class="h3">Libro El Camino De Los Reyes</p>
+                    <p class="p">No sé leer</p>
+
+                    <div class="icon-box">
+                        <p class="span">Ver Más</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cuarto Item -->
+            <div class="card">
+                <div class="img" style="background-image: url(/images/products/prod4.webp);">
+                    <div class="save">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 683 683" height="683" width="683" class="svg">
+                            <g clip-path="url(#clip0_993_25)">
+                                <mask height="683" width="683" y="0" x="0" maskUnits="userSpaceOnUse" style="mask-type: luminance" id="mask0_993_25">
+                                    <path fill="white" d="M0 -0.00012207H682.667V682.667H0V-0.00012207Z"></path>
+                                </mask>
+                                <g mask="url(#mask0_993_25)">
+                                    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="40" stroke="#CED8DE" d="M148.535 19.9999C137.179 19.9999 126.256 24.5092 118.223 32.5532C110.188 40.5866 105.689 51.4799 105.689 62.8439V633.382C105.689 649.556 118.757 662.667 134.931 662.667H135.039C143.715 662.667 151.961 659.218 158.067 653.09C186.451 624.728 270.212 540.966 304.809 506.434C314.449 496.741 327.623 491.289 341.335 491.289C355.045 491.289 368.22 496.741 377.859 506.434C412.563 541.074 496.752 625.242 524.816 653.348C530.813 659.314 538.845 662.667 547.308 662.667C563.697 662.667 576.979 649.395 576.979 633.019V62.8439C576.979 51.4799 572.48 40.5866 564.447 32.5532C556.412 24.5092 545.489 19.9999 534.133 19.9999H148.535Z"></path>
+                                </g>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_993_25">
+                                    <rect fill="white" height="682.667" width="682.667"></rect>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p class="h3">Cargador Tipo C Carga Rápida</p>
+                    <p class="p">Carga Rápido</p>
+
+                    <div class="icon-box">
+                        <p class="span">Ver Más</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
