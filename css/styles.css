@@ -92,7 +92,7 @@ nav a.current {
 }
 
 .client-login span {
-    padding-left: 8px;
+    padding-left: 3px;
 }
 
 .client-register {
@@ -109,7 +109,7 @@ nav a.current {
 }
 
 .client-register span {
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .client-login i {
